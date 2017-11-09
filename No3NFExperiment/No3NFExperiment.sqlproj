@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{710df528-097d-421a-b5b7-27c196c491fd}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -57,5 +57,15 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="BwTree.sql" />
+    <Build Include="BwTreeDetail.sql" />
+    <Build Include="pBwTreeDetail_GetProductBy.sql" />
+    <Build Include="pBwTreeDetail_GetProductsByHash.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="No3NFExperiment.publish.xml" />
+    <None Include="DataCreation.sql" />
   </ItemGroup>
 </Project>

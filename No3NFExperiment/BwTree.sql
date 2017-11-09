@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[BwTree]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
+	[PathHash] INT NOT NULL,
+	[ValueHash] INT NOT NULL
+)
