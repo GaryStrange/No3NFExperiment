@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "No3NFExperiment", "No3NFExperiment\No3NFExperiment.sqlproj", "{710DF528-097D-421A-B5B7-27C196C491FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{710DF528-097D-421A-B5B7-27C196C491FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710DF528-097D-421A-B5B7-27C196C491FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710DF528-097D-421A-B5B7-27C196C491FD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{710DF528-097D-421A-B5B7-27C196C491FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710DF528-097D-421A-B5B7-27C196C491FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710DF528-097D-421A-B5B7-27C196C491FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5044DCF0-010D-4916-B5DA-1A6978A06F20}
+	EndGlobalSection
+EndGlobal
