@@ -63,6 +63,7 @@
     <Build Include="BwTreeDetail.sql" />
     <Build Include="pBwTreeDetail_GetProductBy.sql" />
     <Build Include="pBwTreeDetail_GetProductsByHash.sql" />
+    <Build Include="Documents.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="No3NFExperiment.publish.xml" />
